@@ -27,6 +27,12 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
+/*Custom styles*/
+
+.address{
+  font-size: 0.75em;
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -321,9 +327,8 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   top: 55px;
   right: 15px;
-  bottom: 15px;
   left: 15px;
-  padding: 10px 0;
+  padding: 5px 0;
   background-color: #fff;
   overflow-y: auto;
   transition: 0.3s;
@@ -382,8 +387,6 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 100vh;
   position: relative;
-  background: url("../img/hero-bg.jpg") top center;
-  background-size: cover;
   position: relative;
 }
 

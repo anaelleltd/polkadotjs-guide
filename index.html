@@ -48,7 +48,7 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#start">Getting started</a></li>
+          <li><a class="nav-link scrollto active" href="#about">Getting started</a></li>
           <li class="dropdown"><a href="#content"><span>Content</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#accounts1">Basic setups</a></li>
@@ -56,6 +56,7 @@
               <li><a href="#accounts3">Advanced setups</a></li>
             </ul>
           </li>
+          <li><a class="nav-link scrollto" href="#contributors">Contributors</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>
@@ -75,7 +76,7 @@
         </div>
       </div>
       <div class="text-center">
-        <a href="#start" class="btn-get-started scrollto">Get Started</a>
+        <a href="#about" class="btn-get-started scrollto">Get Started</a>
       </div>
     </div>
   </section>
@@ -84,7 +85,7 @@
 <br/>
   <main id="main">
     <!-- ======= Getting started Section ======= -->
-    <section id="start" class="about">
+    <section id="about">
       <div class="container" data-aos="fade-up">
         <div class="section-title">
           <h2>Getting started</h2>
@@ -96,12 +97,10 @@
           <div class="col-lg-2 col-md-2">
           </div>
           <div class="col-lg-8 col-md-8 text-center">
-            <ul>
-              <li>This guide is divided into 9 parts.</li>
-              <li>These 9 parts are ordered in level of conceptual difficulty (Beginner -> Advanced).</li>
-              <li>Each part covers multiple functionalities of Polkadot-JS Apps.</li>
-              <li> Each part will be published as it becomes available (i.e non-linearly).</li>
-            </ul>
+            <p>This guide is divided into 9 parts.</p>
+            <p>These 9 parts are ordered in level of conceptual difficulty (Beginner -> Advanced).</p>
+              <p>Each part covers multiple functionalities of Polkadot-JS Apps.</p>
+              <p> Each part will be published as it becomes available (i.e non-linearly).</p>
           </div>
           <div class="col-lg-2 col-md-2">
           </div>
@@ -111,10 +110,12 @@
     <!-- End Getting started Section -->
   <!-- ======= Parts Section ======= -->
   <section id="hero" class="d-flex align-items-center">
-    <div class="container position-relative" id="content" data-aos="fade-up" data-aos-delay="100">
-      <div class="section-title">
+    <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+      <div id="content"></div>
+      <div class="text-center">
         <h2>Content</h2>
       </div>
+      <div id="accounts1"></div>
       <div class="row icon-boxes">
         <div class="col-md-4 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
           <div class="icon-box">
@@ -127,8 +128,7 @@
             </ol>
           </div>
         </div>
-
-        <div id="accounts1" class="col-md-4 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="300">
+        <div class="col-md-4 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="300">
           <div class="icon-box">
             <div class="icon"><i class="ri-profile-line"></i></div>
             <h4 class="title"><a href="./1.accounts.html">PART I: Accounts (Basic)</a></h4>
@@ -141,7 +141,6 @@
             </ol>
           </div>
         </div>
-
         <div class="col-md-4 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="400">
           <div class="icon-box">
             <div class="icon"><i class="ri-server-line"></i></div>
@@ -157,8 +156,9 @@
           </div>
         </div>
       </div>
+      <div id="accounts2"></div>
       <div class="row icon-boxes">
-        <div id="accounts2" class="col-md-4 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+        <div class="col-md-4 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
           <div class="icon-box">
             <div class="icon"><i class="ri-account-box-line"></i></div>
             <h4 class="title"><a href="./3.accounts.html">PART III: Accounts (Intermediate)</a></h4>
@@ -181,7 +181,6 @@
             </ol>
           </div>
         </div>
-
         <div class="col-md-4 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="400">
           <div class="icon-box">
             <div class="icon"><i class="ri-dashboard-line"></i></div>
@@ -193,8 +192,9 @@
           </div>
         </div>
       </div>
+      <div id="accounts3"></div>
       <div class="row icon-boxes">
-        <div id="accounts3" class="col-md-4 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+        <div class="col-md-4 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
           <div class="icon-box">
             <div class="icon"><i class="ri-admin-line"></i></div>
             <h4 class="title"><a href="#">PART VI: Accounts (Advanced)</a></h4>
@@ -244,32 +244,36 @@
   <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="footer-top">
-      <div id="acknowledgements" class="container">
+      <div id="contributors" class="container">
         <div class="section-title">
-          <h2>Acknowledgements</h2>
+          <h2>Contributors</h2>
           <p>
           Thanks to all present, past and future contributors.
           </p>
         </div>
-        <div class="row">
+        <div class="row text-center">
           <div class="col-lg-4 col-md-4 footer-links">
             <h4>Web 3 Foundation</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="https://wiki.polkadot.network/">Polkadot Network Wiki</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="https://guide.kusama.network/docs/">Kusama Network Wiki</a></li>
-            </ul>
+            <p class="text-center">
+              <i class="bx bx-chevron-right"></i> <a href="https://wiki.polkadot.network/">Polkadot Network Wiki</a>
+            </p>
+            <p>
+              <i class="bx bx-chevron-right"></i><a href="https://guide.kusama.network/docs/">Kusama Network Wiki</a>
+            </p>
           </div>
           <div class="col-lg-4 col-md-4 footer-links">
             <h4>Parity Technologies</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="https://polkadot.js.org/docs/">Polkadot-JS Docs</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="https://github.com/polkadot-js/apps">Polkadot-JS Apps (Github)</a></li>
-            </ul>
+            <p>
+              <i class="bx bx-chevron-right"></i><a href="https://github.com/polkadot-js/apps">Polkadot-JS Apps (Github)</a>
+            </p>
+            <p>
+              <i class="bx bx-chevron-right"></i><a href="https://polkadot.js.org/docs/">Polkadot-JS Docs</a>
+            </p>
           </div>
           <div class="col-lg-4 col-md-4 footer-links">
             <h4>Kusama Treasury</h4>
             <p>Thank you for supporting this initiative with tips! <3 </p>
-            <p>HjcErRijmpoiBiKEHT3edPXM3NFycJogVwDPuByNe7hv9Ae</p>
+            <p class="address"><a href="https://cloudflare-ipfs.com/ipns/dotapps.io/?rpc=wss%3A%2F%2Fkusama.api.onfinality.io%2Fpublic-ws#/accounts" target="_blank">HjcErRijmpoiBiKEHT3edPXM3NFycJogVwDPuByNe7hv9Ae</a></p>
           </div>
         </div>
       </div>
