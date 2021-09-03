@@ -39,13 +39,23 @@ ol > li {
   font-size-adjust: 1.5em;
 }
 
-img {
+#hero img {
   width: 6rem;
 }
 
 .click-down {
   font-size: 3rem;
 }
+
+
+#start {
+ padding: 80px 0 10px 0; 
+}
+
+#faq {
+  padding: 0px;
+}
+
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -1219,11 +1229,17 @@ section {
 # Portfolio Details
 --------------------------------------------------------------*/
 .portfolio-details {
-  padding-top: 40px;
+  padding-top: 0px;
 }
 
 .portfolio-details .portfolio-details-slider img {
-  width: 100%;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.portfolio-details img {
+  width: 95%;
+  margin: 0 auto;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination {
