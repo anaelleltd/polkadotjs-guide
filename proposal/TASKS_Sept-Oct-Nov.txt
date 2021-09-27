@@ -5,9 +5,9 @@ TO DO Tasks: September - November 2021
 MILESTONES 1 & 2:
 PART I
 [x]Audit of Content
-[=]Recruit 5 testers
+[x]Recruit 5 testers
 [=]User testing survey 1/3 (current website)
-[ ]Collect User testing data
+[=]Collect User testing data
 [ ]Log walkthroughs (current website)
 
 PART II
@@ -33,5 +33,5 @@ MILESTONE 3:
 [x]Add Ad hoc explainers on Substrate chains and networks in Part V (Substrate setups)
 [ ]Upgrade existing website
 [=]Reference content on social channels
-[ ]Monitor traffic on individual pages
+[=]Monitor traffic on individual pages
 
