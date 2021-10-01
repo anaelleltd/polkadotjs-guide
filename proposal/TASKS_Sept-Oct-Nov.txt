@@ -6,16 +6,16 @@ MILESTONES 1 & 2:
 PART I
 [x]Audit of Content
 [x]Recruit 5 testers
-[=]User testing survey 1/3 (current website)
-[=]Collect User testing data
-[ ]Log walkthroughs (current website)
+[x]User testing survey 1/3 (current website)
+[x]Collect User testing data
+[x]Log walkthroughs (current website)
 
 PART II
 [=]Restructure content map
-[ ]Determine UI requirements
-[ ]Select & integrate coding tools and libraries
-[ ]Convert PDF pages -> JPEG images
-[ ]Code sample designs
+[=]Convert PDF pages -> JPEG images
+[=]Determine UI requirements
+[=]Select & integrate coding tools and libraries
+[=]Code sample designs
 [ ]User testing survey 2/3 (sample designs)
 [ ]Collect User testing data
 [ ]Log walkthroughs (sample designs)
