@@ -16,8 +16,8 @@ PART II
 [=]Determine UI requirements
 [=]Select & integrate coding tools and libraries
 [=]Code sample designs
-[ ]User testing survey 2/3 (sample designs)
-[ ]Collect User testing data
+[=]User testing survey 2/3 (sample designs)
+[=]Collect User testing data
 [ ]Log walkthroughs (sample designs)
 [ ]Log approved designs
 
@@ -31,7 +31,7 @@ PART III
 MILESTONE 3:
 [x]Add download link for PDFs 
 [x]Add Ad hoc explainers on Substrate chains and networks in Part V (Substrate setups)
-[ ]Upgrade existing website
+[=]Upgrade existing website
 [=]Reference content on social channels
 [=]Monitor traffic on individual pages
 
