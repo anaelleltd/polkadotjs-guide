@@ -11,18 +11,18 @@ PART I
 [x]Log walkthroughs (current website)
 
 PART II
-[=]Restructure content map
-[=]Convert PDF pages -> JPEG images
-[=]Determine UI requirements
-[=]Select & integrate coding tools and libraries
-[=]Code sample designs
-[=]User testing survey 2/3 (sample designs)
-[=]Collect User testing data
-[ ]Log walkthroughs (sample designs)
-[ ]Log approved designs
+[x]Restructure content map
+[x]Convert PDF pages -> JPEG images
+[x]Determine UI requirements
+[x]Select & integrate coding tools and libraries
+[x]Code sample designs
+[x]User testing survey 2/3 (sample designs)
+[x]Collect User testing data
+[x]Log walkthroughs (sample designs)
+[x]Log approved designs
 
 PART III
-[ ]Code new website
+[=]Code new website
 [ ]User testing survey 3/3 (new website)
 [ ]Collect User testing data
 [ ]Log walkthroughs (new website)
