@@ -36,6 +36,7 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/collapsible.css" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: Onep.- v4.3.0
@@ -79,42 +80,147 @@
   <!-- End Header -->
   <br/>
   <main id="main">
-    <!-- ======= Section ======= -->
+    <!-- ======= Start Section ======= -->
     <section id="start" class="about">
       <div class="container" data-aos="fade-up">
         <div class="section-title">
           <h2>Part I: Accounts (Basic)</h2>
           <p><a href="https://github.com/anaelleltd/polkadotjs-guide/raw/main/1.accounts.pdf">Download PDF</a></p>
         </div>
-        <div class="row content">
-          <div class="col-lg-12 col-md-12">
-            <ol>
-              <li>Accounts: Manage your accounts. [p.1-20]</li>
-              <ul>
-                a)  Create a Polkadot-JS account from a new Seed and save it in a JSON file. [p.3-8]<br/>
-                b)  Import a Polkadot-JS account from a JSON file. [p.9-11]<br/>
-                c)  Add a Polkadot-JS account from a QR Code. [p.12-15]<br/>
-                d)  Set up a Polkadot-JS Multisig account. [p.16]<br/>
-                e)  Set up a Polkadot-JS Proxied account. [p.17]<br/>
-                f)  Check your account information, receive funds at your KSM address and view your KSM balances. [p.18-19]<br/>
-                g)  Generate a vanity address. [p.20]
-              </ul>
-              <br/>
-              <li>Address book: Bookmark your favourite KSM addresses as contacts. [p.21-23]</li><br/>
-              <li>Claim tokens: Claim your KSM from your ETH address. [p.24-25]</li><br/>
-              <li>Transfer: Send KSM to another KSM address. [p.26-27]</li><br/>
-              <li>Teleport: Send your KSM to a parachain address. [p.28-29]</li>
-            </ol>
-          </div>
-        </div>
-        <br/>
-        <br/>
-        <div class="col-lg-12 col-md-12">
-          <embed src="./1.accounts.pdf" type="application/pdf" width=100% height=850px/>
-        </div>
       </div>
     </section>
     <!-- End Section -->
+
+    <!-- ======= INFOGRAPHICS Section ======= -->
+    <section id="faq" class="faq">
+      <div class="container" data-aos="fade-up">
+        <div class="row">    
+          <div class="faq-list">
+          <ol>
+            <li>
+              <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">Accounts: Manage your accounts. <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <br/>
+              <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
+                <!--Subsection 1 -->
+                <div class="col-lg-12 col-md-12">
+                  <div class="portfolio-details">
+                    <div>
+                      <button type="button" class="collapsible">a) Create a Polkadot-JS account from a new Seed and save it in a JSON file.</button>
+                      <div class="part">
+                        <img src="assets/img/1/Accounts_accounts-create-seed-json-backup-1.jpg" alt="Accounts"><br/>
+                        <img src="assets/img/1/Accounts_accounts-create-seed-json-backup-2.jpg" alt="Accounts"><br/>
+                        <img src="assets/img/1/Accounts_accounts-create-seed-json-backup-3.jpg" alt="Accounts"><br/>
+                        <img src="assets/img/1/Accounts_accounts-create-seed-json-backup-4.jpg" alt="Accounts"><br/>
+                        <img src="assets/img/1/Accounts_accounts-create-seed-json-backup-5.jpg" alt="Accounts"><br/>
+                        <img src="assets/img/1/Accounts_accounts-create-seed-json-backup-6.jpg" alt="Accounts"><br/>
+                        <img src="assets/img/1/Accounts_accounts-create-seed-json-backup-7.jpg" alt="Accounts"><br/>
+                        <img src="assets/img/1/Accounts_accounts-create-seed-json-backup-8.jpg" alt="Accounts"><br/>
+                      </div>
+                      <button type="button" class="collapsible">b) Import a Polkadot-JS account from a JSON file.</button>
+                      <div class="part">
+                        <img src="assets/img/1/Accounts_accounts-import-json-1.jpg" alt="Accounts"><br/>
+                        <img src="assets/img/1/Accounts_accounts-import-json-2.jpg" alt="Accounts"><br/>
+                        <img src="assets/img/1/Accounts_accounts-import-json-3.jpg" alt="Accounts"><br/>
+                        <img src="assets/img/1/Accounts_accounts-import-json-4.jpg" alt="Accounts"><br/>
+                      </div>
+                      <button type="button" class="collapsible">c) Add a Polkadot-JS account from a QR Code.</button>
+                      <div class="part">
+                        <img src="assets/img/1/Accounts_accounts-add-qr-code-1.jpg" alt="Accounts"><br/>
+                        <img src="assets/img/1/Accounts_accounts-add-qr-code-2.jpg" alt="Accounts"><br/>
+                        <img src="assets/img/1/Accounts_accounts-add-qr-code-3.jpg" alt="Accounts"><br/>
+                        <img src="assets/img/1/Accounts_accounts-add-qr-code-4.jpg" alt="Accounts"><br/>
+                        <img src="assets/img/1/Accounts_accounts-add-qr-code-5.jpg" alt="Accounts"><br/>
+                      </div>
+                      <button type="button" class="collapsible">d) Set up a Polkadot-JS Multisig account.</button>
+                      <div class="part">
+                        <img src="assets/img/1/Accounts_accounts-set-multisig-1.jpg" alt="Accounts"><br/>
+                        <img src="assets/img/1/Accounts_accounts-set-multisig-2.jpg" alt="Accounts"><br/>
+                      </div>
+                      <button type="button" class="collapsible">e) Set up a Polkadot-JS Proxied account.</button>
+                      <div class="part">
+                        <img src="assets/img/1/Accounts_accounts-set-proxied-1.jpg" alt="Accounts"><br/>
+                        <img src="assets/img/1/Accounts_accounts-set-proxied-2.jpg" alt="Accounts"><br/>
+                      </div>
+                      <button type="button" class="collapsible">f) Check your account information, receive funds at your KSM address and view your KSM balances.</button>
+                      <div class="part">
+                        <img src="assets/img/1/Accounts_accounts-information-addresses-balances-1.jpg" alt="Accounts"><br/>
+                        <img src="assets/img/1/Accounts_accounts-information-addresses-balances-2.jpg" alt="Accounts"><br/>
+                        <img src="assets/img/1/Accounts_accounts-information-addresses-balances-3.jpg" alt="Accounts"><br/>
+                      </div>
+                      <button type="button" class="collapsible">g) Generate a vanity address.</button>
+                      <div class="part">
+                        <img src="assets/img/1/Accounts_accounts-vanity-address-1.jpg" alt="Accounts"><br/>
+                        <img src="assets/img/1/Accounts_accounts-vanity-address-2.jpg" alt="Accounts"><br/>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--Subsection 1 ENDS -->
+              </div>
+            </li>
+            <li>
+              <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">Address book: Bookmark your favourite KSM addresses as contacts. <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <br/>
+              <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
+                <!--Subsection 2 -->
+                <div class="col-lg-12 col-md-12">
+                  <div class="portfolio-details">
+                    <img src="assets/img/1/Accounts_address-book-1.jpg" alt="Accounts"><br/>
+                    <img src="assets/img/1/Accounts_address-book-2.jpg" alt="Accounts"><br/>
+                    <img src="assets/img/1/Accounts_address-book-3.jpg" alt="Accounts"><br/>
+                  </div>
+                </div>
+                <!--Subsection 2 ENDS -->
+              </div>
+            </li>
+            <li>
+              <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">Claim tokens: Claim your KSM from your ETH address. <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <br/>
+              <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
+                <!--Subsection 3 -->
+                <div class="col-lg-12 col-md-12">
+                  <div class="portfolio-details">
+                    <img src="assets/img/1/Accounts_claim-tokens-1.jpg" alt="Accounts"><br/>
+                    <img src="assets/img/1/Accounts_claim-tokens-2.jpg" alt="Accounts"><br/>
+                  </div>
+                </div>
+                <!--Subsection 3 ENDS -->
+              </div>
+            </li>
+            <li>
+              <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">Transfer: Send KSM to another KSM address. <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <br/>
+              <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
+                <!--Subsection 4 -->
+                <div class="col-lg-12 col-md-12">
+                  <div class="portfolio-details">
+                    <img src="assets/img/1/Accounts_transfers-1.jpg" alt="Accounts"><br/>
+                    <img src="assets/img/1/Accounts_transfers-2.jpg" alt="Accounts"><br/>
+                  </div>
+                </div>
+                <!--Subsection 4 ENDS -->
+              </div>
+            </li>
+            <li>
+              <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">Teleport: Send your KSM to a parachain address. <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <br/>
+              <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
+                <!--Subsection 5 -->
+                <div class="col-lg-12 col-md-12">
+                  <div class="portfolio-details">
+                    <img src="assets/img/1/Accounts_teleport-1.jpg" alt="Accounts"><br/>
+                    <img src="assets/img/1/Accounts_teleport-2.jpg" alt="Accounts"><br/>
+                  </div>
+                </div>
+                <!--Subsection 5 ENDS -->
+              </div>
+            </li>
+          </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End INFOGRAPHICS Section -->
 </main>
 <!-- End #main -->
 <br/>
@@ -127,7 +233,7 @@
           &copy; 2021 <strong><span>Anaelle LTD</span></strong>.
         </div>
         <div class="credits">
-          Last updated: 16th September 2021. <br/> 
+          Last updated: 17th October 2021. <br/> 
           <!-- All the links in the footer should remain intact. -->
           <!-- You can delete the links only if you purchased the pro version. -->
           <!-- Licensing information: https://bootstrapmade.com/license/ -->
@@ -156,6 +262,7 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/collapsible.js"></script>
 
 </body>
 

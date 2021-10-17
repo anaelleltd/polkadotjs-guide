@@ -36,6 +36,7 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/collapsible.css" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: Onep.- v4.3.0
@@ -79,66 +80,263 @@
   <!-- End Header -->
   <br/>
   <main id="main">
-    <!-- ======= Section ======= -->
+    <!-- ======= Start Section ======= -->
     <section id="start" class="about">
       <div class="container" data-aos="fade-up">
         <div class="section-title">
           <h2>Part II: Network</h2>
           <p><a href="https://github.com/anaelleltd/polkadotjs-guide/raw/main/2.network.pdf">Download PDF</a></p>
         </div>
-        <div class="row content">
-          <div class="col-lg-12 col-md-12">
-            <ol>
-              <li>Explorer: Explore latest blockchain data. [p.1-5]</li>
-              <ul>
-                a) View blockchain information. [p.2]<br/>
-                b) View block details. [p.3]<br/>
-                c) Monitor blockchain forks. [p.4]<br/>
-                d) Monitor blockchain nodes information. [p.5]<br/>
-              </ul>
-              <br/>
-              <li>Staking: Explore staking-related operations. [p.6-62]</li>
-              <ul>
-                a) View general staking information. [p.7]<br/>
-                b) Manage account nominations:<br/>
-                    - set nominators. [p.8-20]<br/>
-                    - add stashes. [p.21-25]<br/>
-                    - bond more funds. [p.26-30]<br/> 
-                    - unbond funds. [p.31-38]<br/>
-                    - change controller account. [p.39-44]<br/>
-                    - change reward destination. [p.45-50]<br/>
-                    - set nominees. [p.51-56]<br/>
-                c) Check payouts from recent eras. [p.57]<br/>
-                d) Check nomination targets. [p.58-59]<br/>
-                e) Check the list of waiting validators. [p.60]<br/>
-                f) Check the list of slashed validators. [p.61]<br/>
-                g) Check the statistics of individual validators. [p.62]
-              </ul>
-              <br/>
-              <li>Parachains: Explore parachain-related activities. [p.63-70]</li>
-              <ul>
-                a) View general parachain information. [p.64]<br/>
-                b) View onboarded parathreads. [p.65]<br/>
-                c) View auctions’ progress. [p.66]<br/>
-                d) View and contribute to crowdloans. [p.67-72]
-              </ul>
-              <br/>
-              <li>Gilt: View and participate in auctions for inflation-protected KSM derivatives. [TBC]</li><br/>
-              <li>Society: View and participate in Kappa Sigma Mu activities. [TBC]</li><br/>
-              <li>Event calendar: Browse upcoming Relay chain events. [p.75-77]</li>
-            </ol>
-          </div>
-          <br/>
-          <br/>
-        </div>
-        <br/>
-        <br/>
-        <div class="col-lg-12 col-md-12">
-          <embed src="./2.network.pdf" type="application/pdf" width=100% height=850px/>
-        </div>
       </div>
     </section>
     <!-- End Section -->
+
+    <!-- ======= INFOGRAPHICS Section ======= -->
+    <section id="faq" class="faq">
+      <div class="container" data-aos="fade-up">
+        <div class="row">    
+          <div class="faq-list">
+          <ol>
+            <li>
+              <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">Explorer: Explore latest blockchain data. <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <br/>
+              <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
+                <!--Subsection 1 -->
+                <div class="col-lg-12 col-md-12">
+                  <div class="portfolio-details">
+                    <div>
+                      <button type="button" class="collapsible">a) View blockchain information.</button>
+                      <div class="part">
+                        <img src="assets/img/2/Network_explorer-blockchain-information-1.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_explorer-blockchain-information-2.jpg" alt="Network"><br/>
+                      </div>
+                      <button type="button" class="collapsible">b) View block details.</button>
+                      <div class="part">
+                        <img src="assets/img/2/Network_explorer-block-details-1.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_explorer-block-details-2.jpg" alt="Network"><br/>
+                      </div>
+                      <button type="button" class="collapsible">c) Monitor blockchain forks.</button>
+                      <div class="part">
+                        <img src="assets/img/2/Network_explorer-blockchain-forks-1.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_explorer-blockchain-forks-2.jpg" alt="Network"><br/>
+                      </div>
+                      <button type="button" class="collapsible">d) Monitor blockchain nodes information.</button>
+                      <div class="part">
+                        <img src="assets/img/2/Network_explorer-blockchain-nodes-information-1.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_explorer-blockchain-nodes-information-2.jpg" alt="Network"><br/>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--Subsection 1 ENDS -->
+              </div>
+            </li>
+            <li>
+              <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">Staking: Explore staking-related operations. <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <br/>
+              <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
+                <!--Subsection 2 -->
+                <div class="col-lg-12 col-md-12">
+                  <div class="portfolio-details">
+                    <div>
+                      <button type="button" class="collapsible">a) View general staking information.</button>
+                      <div class="part">
+                        <img src="assets/img/2/Network_staking-general-information-1.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_staking-general-information-2.jpg" alt="Network"><br/>
+                      </div>
+                      <button type="button" class="collapsible">b) Manage account nominations (1/4): Set nominators.</button>
+                      <div class="part">
+                        <img src="assets/img/2/Network_staking-set-nominators-01.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_staking-set-nominators-02.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_staking-set-nominators-03.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_staking-set-nominators-04.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_staking-set-nominators-05.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_staking-set-nominators-06.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_staking-set-nominators-07.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_staking-set-nominators-08.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_staking-set-nominators-09.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_staking-set-nominators-10.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_staking-set-nominators-11.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_staking-set-nominators-12.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_staking-set-nominators-13.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_staking-set-nominators-14.jpg" alt="Network"><br/>
+                      </div>
+                      <button type="button" class="collapsible">b) Manage account nominations (2/4): Add stashes & bond more funds.</button>
+                      <div class="part">
+                        <img src="assets/img/2/Network_staking-add-stashes-bond-more-funds-01.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_staking-add-stashes-bond-more-funds-02.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_staking-add-stashes-bond-more-funds-03.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_staking-add-stashes-bond-more-funds-04.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_staking-add-stashes-bond-more-funds-05.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_staking-add-stashes-bond-more-funds-06.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_staking-add-stashes-bond-more-funds-07.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_staking-add-stashes-bond-more-funds-08.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_staking-add-stashes-bond-more-funds-09.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_staking-add-stashes-bond-more-funds-10.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_staking-add-stashes-bond-more-funds-11.jpg" alt="Network"><br/>
+                      </div>
+                      <button type="button" class="collapsible">b) Manage account nominations (3/4): Unbond funds & change controller account.</button>
+                      <div class="part">
+                        <img src="assets/img/2/Network_staking-unbond-funds-change-controller-account-01.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_staking-unbond-funds-change-controller-account-02.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_staking-unbond-funds-change-controller-account-03.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_staking-unbond-funds-change-controller-account-04.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_staking-unbond-funds-change-controller-account-05.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_staking-unbond-funds-change-controller-account-06.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_staking-unbond-funds-change-controller-account-07.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_staking-unbond-funds-change-controller-account-08.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_staking-unbond-funds-change-controller-account-09.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_staking-unbond-funds-change-controller-account-10.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_staking-unbond-funds-change-controller-account-11.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_staking-unbond-funds-change-controller-account-12.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_staking-unbond-funds-change-controller-account-13.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_staking-unbond-funds-change-controller-account-14.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_staking-unbond-funds-change-controller-account-15.jpg" alt="Network"><br/>
+                      </div>
+                      <button type="button" class="collapsible">b) Manage account nominations (4/4): Change reward destination & set nominees.</button>
+                      <div class="part">
+                        <img src="assets/img/2/Network_staking-change-rewards-destination-set-nominees-01.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_staking-change-rewards-destination-set-nominees-02.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_staking-change-rewards-destination-set-nominees-03.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_staking-change-rewards-destination-set-nominees-04.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_staking-change-rewards-destination-set-nominees-05.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_staking-change-rewards-destination-set-nominees-06.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_staking-change-rewards-destination-set-nominees-07.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_staking-change-rewards-destination-set-nominees-08.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_staking-change-rewards-destination-set-nominees-09.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_staking-change-rewards-destination-set-nominees-10.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_staking-change-rewards-destination-set-nominees-11.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_staking-change-rewards-destination-set-nominees-12.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_staking-change-rewards-destination-set-nominees-13.jpg" alt="Network"><br/>
+                      </div>
+                      <button type="button" class="collapsible">c) Check payouts from recent eras.</button>
+                      <div class="part">
+                        <img src="assets/img/2/Network_staking-check-payouts-1.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_staking-check-payouts-2.jpg" alt="Network"><br/>
+                      </div>
+                      <button type="button" class="collapsible">d) Check nomination targets.</button>
+                      <div class="part">
+                        <img src="assets/img/2/Network_staking-check-nomination-targets-1.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_staking-check-nomination-targets-2.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_staking-check-nomination-targets-3.jpg" alt="Network"><br/>
+                      </div>
+                      <button type="button" class="collapsible">e) Check the list of waiting validators.</button>
+                      <div class="part">
+                        <img src="assets/img/2/Network_staking-check-waiting-validators-1.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_staking-check-waiting-validators-2.jpg" alt="Network"><br/>
+                      </div>
+                      <button type="button" class="collapsible">f) Check the list of slashed validators.</button>
+                      <div class="part">
+                        <img src="assets/img/2/Network_staking-check-slashed-validators-1.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_staking-check-slashed-validators-2.jpg" alt="Network"><br/>
+                      </div>
+                      <button type="button" class="collapsible">g) Check validators statistics.</button>
+                      <div class="part">
+                        <img src="assets/img/2/Network_staking-check-validators-statistics-1.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_staking-check-validators-statistics-2.jpg" alt="Network"><br/>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--Subsection 2 ENDS -->
+              </div>
+            </li>
+            <li>
+              <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">Parachains: Explore parachain-related activities. <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <br/>
+              <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
+                <!--Subsection 3 -->
+                <div class="col-lg-12 col-md-12">
+                  <div class="portfolio-details">
+                    <div>
+                      <button type="button" class="collapsible">a) View general parachain information.</button>
+                      <div class="part">
+                        <img src="assets/img/2/Network_parachains-general-information-1.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_parachains-general-information-2.jpg" alt="Network"><br/>
+                      </div>
+                      <button type="button" class="collapsible">b) View onboarded parathreads.</button>
+                      <div class="part">
+                        <img src="assets/img/2/Network_parachains-onboarded-parathreads-1.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_parachains-onboarded-parathreads-2.jpg" alt="Network"><br/>
+                      </div>
+                      <button type="button" class="collapsible">c) View auctions’ progress.</button>
+                      <div class="part">
+                        <img src="assets/img/2/Network_parachains-auctions-progress-1.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_parachains-auctions-progress-2.jpg" alt="Network"><br/>
+                      </div>
+                      <button type="button" class="collapsible">d) View and contribute to crowdloans.</button>
+                      <div class="part">
+                        <img src="assets/img/2/Network_parachains-contribute-crowdloans-1.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_parachains-contribute-crowdloans-2.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_parachains-contribute-crowdloans-3.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_parachains-contribute-crowdloans-4.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_parachains-contribute-crowdloans-5.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_parachains-contribute-crowdloans-6.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_parachains-contribute-crowdloans-7.jpg" alt="Network"><br/>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--Subsection 3 ENDS -->
+              </div>
+            </li>
+            <li>
+              <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">Gilt: View and participate in auctions for inflation-protected KSM derivatives. <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <br/>
+              <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
+                <!--Subsection 4 -->
+                <div class="col-lg-12 col-md-12">
+                  <div class="portfolio-details">
+                    <p class="text-center">[TBC]</p>
+                  </div>
+                </div>
+                <!--Subsection 4 ENDS -->
+              </div>
+            </li>
+            <li>
+              <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">Society: View and participate in Kappa Sigma Mu activities. <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <br/>
+              <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
+                <!--Subsection 5 -->
+                <div class="col-lg-12 col-md-12">
+                  <div class="portfolio-details">
+                    <p class="text-center">[TBC]</p>
+                  </div>
+                </div>
+                <!--Subsection 5 ENDS -->
+              </div>
+            </li>
+            <li>
+              <a data-bs-toggle="collapse" data-bs-target="#faq-list-6" class="collapsed">Event calendar: Browse upcoming Relay chain events. <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <br/>
+              <div id="faq-list-6" class="collapse" data-bs-parent=".faq-list">
+                <!--Subsection 6 -->
+                <div class="col-lg-12 col-md-12">
+                  <div class="portfolio-details">
+                    <div>
+                      <button type="button" class="collapsible">a) Browse Relay chain schedules.</button>
+                      <div class="part">
+                        <img src="assets/img/2/Network_event-calendar-relay-chain-schedules-1.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_event-calendar-relay-chain-schedules-2.jpg" alt="Network"><br/>
+                      </div>
+                      <button type="button" class="collapsible">b) Access core Relay chain modules.</button>
+                      <div class="part">
+                        <img src="assets/img/2/Network_event-calendar-relay-chain-modules-1.jpg" alt="Network"><br/>
+                        <img src="assets/img/2/Network_event-calendar-relay-chain-modules-2.jpg" alt="Network"><br/>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--Subsection 6 ENDS -->
+              </div>
+            </li>
+
+          </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End INFOGRAPHICS Section -->
 </main>
 <!-- End #main -->
 <br/>
@@ -151,7 +349,7 @@
           &copy; 2021 <strong><span>Anaelle LTD</span></strong>.
         </div>
         <div class="credits">
-          Last updated: 16th September 2021. <br/> 
+          Last updated: 17th October 2021. <br/> 
           <!-- All the links in the footer should remain intact. -->
           <!-- You can delete the links only if you purchased the pro version. -->
           <!-- Licensing information: https://bootstrapmade.com/license/ -->
@@ -180,6 +378,7 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/collapsible.js"></script>
 
 </body>
 
