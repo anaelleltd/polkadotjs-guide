@@ -1,0 +1,10 @@
+https://anaelleltd.github.io/polkadotjs-guide/
+https://anaelleltd.github.io/polkadotjs-guide/index.html
+https://anaelleltd.github.io/polkadotjs-guide/0.wallet.html
+https://anaelleltd.github.io/polkadotjs-guide/1.accounts.html
+https://anaelleltd.github.io/polkadotjs-guide/2.network.html
+https://anaelleltd.github.io/polkadotjs-guide/3.accounts.html
+https://anaelleltd.github.io/polkadotjs-guide/4.governance.html
+https://anaelleltd.github.io/polkadotjs-guide/5.substrate.html
+https://anaelleltd.github.io/polkadotjs-guide/6.accounts.html
+https://anaelleltd.github.io/polkadotjs-guide/7.settings.html
