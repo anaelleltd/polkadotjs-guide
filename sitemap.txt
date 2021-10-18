@@ -1,5 +1,4 @@
 https://anaelleltd.github.io/polkadotjs-guide/
-https://anaelleltd.github.io/polkadotjs-guide/index.html
 https://anaelleltd.github.io/polkadotjs-guide/0.wallet.html
 https://anaelleltd.github.io/polkadotjs-guide/1.accounts.html
 https://anaelleltd.github.io/polkadotjs-guide/2.network.html
