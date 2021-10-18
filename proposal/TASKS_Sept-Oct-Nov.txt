@@ -23,9 +23,9 @@ PART II
 
 PART III
 [=]Code new website
-[ ]User testing survey 3/3 (new website)
-[ ]Collect User testing data
-[ ]Log walkthroughs (new website)
+[=]User testing survey 3/3 (new website)
+[=]Collect User testing data
+[=]Log walkthroughs (new website)
 
 
 MILESTONE 3:
