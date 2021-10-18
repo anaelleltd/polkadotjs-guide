@@ -617,8 +617,12 @@ ol > li {
   transform: scale(1.08);
 }
 
-#Parts .icon-box:hover .title a {
+#Parts .icon-box:hover a {
   color: #2487ce;
+}
+
+#Parts a {
+  color: #124265;
 }
 
 @media (min-width: 1024px) {
