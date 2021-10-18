@@ -7,3 +7,12 @@ https://anaelleltd.github.io/polkadotjs-guide/4.governance.html
 https://anaelleltd.github.io/polkadotjs-guide/5.substrate.html
 https://anaelleltd.github.io/polkadotjs-guide/6.accounts.html
 https://anaelleltd.github.io/polkadotjs-guide/7.settings.html
+
+https://anaelleltd.github.io/polkadotjs-guide/assets/img/0/
+https://anaelleltd.github.io/polkadotjs-guide/assets/img/1/
+https://anaelleltd.github.io/polkadotjs-guide/assets/img/2/
+https://anaelleltd.github.io/polkadotjs-guide/assets/img/3/
+https://anaelleltd.github.io/polkadotjs-guide/assets/img/4/
+https://anaelleltd.github.io/polkadotjs-guide/assets/img/5/
+https://anaelleltd.github.io/polkadotjs-guide/assets/img/6/
+https://anaelleltd.github.io/polkadotjs-guide/assets/img/7/
