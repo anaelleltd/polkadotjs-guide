@@ -22,10 +22,10 @@ PART II
 [x]Log approved designs
 
 PART III
-[=]Code new website
-[=]User testing survey 3/3 (new website)
-[=]Collect User testing data
-[=]Log walkthroughs (new website)
+[x]Code new website
+[x]User testing survey 3/3 (new website)
+[x]Collect User testing data
+[x]Log walkthroughs (new website)
 
 
 MILESTONE 3:
