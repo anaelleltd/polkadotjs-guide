@@ -1,0 +1,15 @@
+TO DO Tasks: December 2021 - February 2022
+[x] Complete	[=] Ongoing	[ ] Pending
+
+ONGOING MAINTENANCE:
+[ ]Deliver Part II Section 5 with in-depth explainers
+[ ]Deliver Part VIII with in-depth explainers
+[ ]Optimise JPEG images
+[ ]Code refactoring
+[ ]Page load testing
+[ ]Upgrade Crawling configuration
+[ ]Optimise Search widget
+[ ]Reference content on social channels
+[ ]Monitor traffic on individual pages
+[ ]Review search analytics
+[ ]Produce Dec-Feb report
