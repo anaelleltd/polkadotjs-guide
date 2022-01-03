@@ -8,8 +8,8 @@ ONGOING MAINTENANCE:
 [=]Code refactoring
 [ ]Page load testing
 [ ]Upgrade Crawling configuration
-[ ]Optimise Search widget
-[ ]Reference content on social channels
+[=]Optimise Search widget
+[=]Reference content on social channels
 [=]Monitor traffic on individual pages
 [ ]Review search analytics
 [ ]Produce Dec-Feb report
