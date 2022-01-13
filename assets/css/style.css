@@ -33,8 +33,14 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 0.75em;
 }
 
-ol > li {
+ol > li > a {
   font-weight: 800;
+  font-variant-caps: all;
+  font-size-adjust: 1.5em;
+}
+
+.blank {
+  font-weight: 400;
   font-variant-caps: all;
   font-size-adjust: 1.5em;
 }
@@ -628,12 +634,13 @@ ol > li {
   transform: scale(1.08);
 }
 
-#Parts .icon-box:hover a {
-  color: #2487ce;
-}
-
 #Parts a {
   color: #124265;
+}
+
+#Parts a:hover {
+  color: #2487ce;
+  font-weight: 800;
 }
 
 @media (min-width: 1024px) {
