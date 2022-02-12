@@ -22,7 +22,6 @@ https://anaelleltd.github.io/polkadotjs-guide/3.accounts.html
 https://anaelleltd.github.io/polkadotjs-guide/3.accounts.html#substrate-identities
 https://anaelleltd.github.io/polkadotjs-guide/3.accounts.html#substrate-explorers
 
-
 https://anaelleltd.github.io/polkadotjs-guide/4.governance.html
 https://anaelleltd.github.io/polkadotjs-guide/4.governance.html#democracy
 https://anaelleltd.github.io/polkadotjs-guide/4.governance.html#council
@@ -39,9 +38,14 @@ https://anaelleltd.github.io/polkadotjs-guide/6.accounts.html#account-recovery
 https://anaelleltd.github.io/polkadotjs-guide/6.accounts.html#democracy-delegation
 https://anaelleltd.github.io/polkadotjs-guide/6.accounts.html#proxy-setup
 
-
 https://anaelleltd.github.io/polkadotjs-guide/7.settings.html
 https://anaelleltd.github.io/polkadotjs-guide/7.settings.html#general
 https://anaelleltd.github.io/polkadotjs-guide/7.settings.html#metadata
 https://anaelleltd.github.io/polkadotjs-guide/7.settings.html#developer
 https://anaelleltd.github.io/polkadotjs-guide/7.settings.html#translate
+
+https://anaelleltd.github.io/polkadotjs-guide/8.developer.html#chain-state
+https://anaelleltd.github.io/polkadotjs-guide/8.developer.html#extrinsics
+https://anaelleltd.github.io/polkadotjs-guide/8.developer.html#rpc-calls
+https://anaelleltd.github.io/polkadotjs-guide/8.developer.html#sign-verify
+https://anaelleltd.github.io/polkadotjs-guide/8.developer.html#javascript

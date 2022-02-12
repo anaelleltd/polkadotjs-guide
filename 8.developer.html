@@ -37,7 +37,7 @@
   <!-- End Search widget -->
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
@@ -51,6 +51,9 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
   <link href="assets/css/collapsible.css" rel="stylesheet">
+
+  <!-- JQUERY -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
   <!-- =======================================================
   * Template Name: OnePage - v4.3.0
@@ -113,20 +116,34 @@
         <div class="faq-list">
         <ol>
           <li>
-            <a data-bs-toggle="collapse" class="collapse" data-bs-target="#chain-state">Chain state: Make API calls to query on-chain data. <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+            <a data-bs-toggle="collapse" data-bs-target="#chain-state" class="collapsed">Chain state: Make API calls to query on-chain data. <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
             <br/>
-            <div id="chain-state" class="collapse show" data-bs-parent=".faq-list">
+            <div id="chain-state" class="collapse" data-bs-parent=".faq-list">
               <!--Subsection 1 -->
               <div class="col-lg-12 col-md-12">
                 <div class="portfolio-details">
                   <div>
-                    <button type="button" class="collapsible">a) ??</button>
+                    <button type="button" class="collapsible">a) View storage items.</button>
                     <div class="part">
-                      <img src="assets/img/8/??.jpg" alt="Developer"><br/>
+                      <img src="assets/img/8/Developer_chain-state-storage-items-1.jpg" alt="Developer"><br/>
+                      <img src="assets/img/8/Developer_chain-state-storage-items-2.jpg" alt="Developer"><br/>
+                      <img src="assets/img/8/Developer_chain-state-storage-items-3.jpg" alt="Developer"><br/>
+                      <img src="assets/img/8/Developer_chain-state-storage-items-4.jpg" alt="Developer"><br/>
+                      <img src="assets/img/8/Developer_chain-state-storage-items-5.jpg" alt="Developer"><br/>
+                      <img src="assets/img/8/Developer_chain-state-storage-items-6.jpg" alt="Developer"><br/>
                     </div>
-                    <button type="button" class="collapsible">b) ??</button>
+                    <button type="button" class="collapsible">b) View chain constants.</button>
                     <div class="part">
-                      <img src="assets/img/8/??.jpg" alt="Developer"><br/>
+                      <img src="assets/img/8/Developer_chain-state-chain-constants-1.jpg" alt="Developer"><br/>
+                      <img src="assets/img/8/Developer_chain-state-chain-constants-2.jpg" alt="Developer"><br/>
+                      <img src="assets/img/8/Developer_chain-state-chain-constants-3.jpg" alt="Developer"><br/>
+                      <img src="assets/img/8/Developer_chain-state-chain-constants-4.jpg" alt="Developer"><br/>
+                      <img src="assets/img/8/Developer_chain-state-chain-constants-5.jpg" alt="Developer"><br/>
+                    </div>
+                    <button type="button" class="collapsible">c) Retrieve raw storage information.</button>
+                    <div class="part">
+                      <img src="assets/img/8/Developer_chain-state-raw-storage-1.jpg" alt="Developer"><br/>
+                      <img src="assets/img/8/Developer_chain-state-raw-storage-2.jpg" alt="Developer"><br/>
                     </div>
                   </div>
                 </div>
@@ -135,20 +152,35 @@
             </div>
           </li>
           <li>
-            <a data-bs-toggle="collapse" data-bs-target="#extrinsics" class="collapsed">Extrinsics: Make API calls to submit data onto the chain. <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+            <a data-bs-toggle="collapse" data-bs-target="#extrinsics" class="collapsed">Extrinsics: Make API calls to submit data onto the chain directly. <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
             <br/>
             <div id="extrinsics" class="collapse" data-bs-parent=".faq-list">
               <!--Subsection 2 -->
               <div class="col-lg-12 col-md-12">
                 <div class="portfolio-details">
                   <div>
-                    <button type="button" class="collapsible">a) ??</button>
+                    <button type="button" class="collapsible">a) View Runtime modules and methods.</button>
                     <div class="part">
-                      <img src="assets/img/8/??.jpg" alt="Developer"><br/>
+                      <img src="assets/img/8/Developer_extrinsics-runtime-1.jpg" alt="Developer"><br/>
+                      <img src="assets/img/8/Developer_extrinsics-runtime-2.jpg" alt="Developer"><br/>
+                      <img src="assets/img/8/Developer_extrinsics-runtime-3.jpg" alt="Developer"><br/>
+                      <img src="assets/img/8/Developer_extrinsics-runtime-4.jpg" alt="Developer"><br/>
+                      <img src="assets/img/8/Developer_extrinsics-runtime-5.jpg" alt="Developer"><br/>
+                      <img src="assets/img/8/Developer_extrinsics-runtime-6.jpg" alt="Developer"><br/>
                     </div>
-                    <button type="button" class="collapsible">b) ?? </button>
+                    <button type="button" class="collapsible">b) Submit calls.</button>
                     <div class="part">
-                      <img src="assets/img/8/??.jpg" alt="Developer"><br/>
+                      <img src="assets/img/8/Developer_extrinsics-submit-calls-1.jpg" alt="Developer"><br/>
+                      <img src="assets/img/8/Developer_extrinsics-submit-calls-2.jpg" alt="Developer"><br/>
+                      <img src="assets/img/8/Developer_extrinsics-submit-calls-3.jpg" alt="Developer"><br/>
+                      <img src="assets/img/8/Developer_extrinsics-submit-calls-4.jpg" alt="Developer"><br/>
+                    </div>
+                    <button type="button" class="collapsible">c) Decode hex-encoded calls.</button>
+                    <div class="part">
+                      <img src="assets/img/8/Developer_extrinsics-decode-calls-1.jpg" alt="Developer"><br/>
+                      <img src="assets/img/8/Developer_extrinsics-decode-calls-2.jpg" alt="Developer"><br/>
+                      <img src="assets/img/8/Developer_extrinsics-decode-calls-3.jpg" alt="Developer"><br/>
+                      <img src="assets/img/8/Developer_extrinsics-decode-calls-4.jpg" alt="Developer"><br/>
                     </div>
                   </div>
                 </div>
@@ -157,20 +189,25 @@
             </div>
           </li>
           <li>
-            <a data-bs-toggle="collapse" data-bs-target="#rpc-calls" class="collapsed">RPC calls: View RPC calls used to submit data onto the chain remotely. <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+            <a data-bs-toggle="collapse" data-bs-target="#rpc-calls" class="collapsed">RPC calls: Make RPC calls to submit data onto the chain remotely. <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
             <br/>
             <div id="rpc-calls" class="collapse" data-bs-parent=".faq-list">
               <!--Subsection 3 -->
               <div class="col-lg-12 col-md-12">
                 <div class="portfolio-details">
                   <div>
-                    <button type="button" class="collapsible">a) ??</button>
+                    <button type="button" class="collapsible">a) View JSON RPC modules and methods.</button>
                     <div class="part">
-                      <img src="assets/img/8/??.jpg" alt="Developer"><br/>
+                      <img src="assets/img/8/Developer_rpc-json-rpc-1.jpg" alt="Developer"><br/>
+                      <img src="assets/img/8/Developer_rpc-json-rpc-2.jpg" alt="Developer"><br/>
+                      <img src="assets/img/8/Developer_rpc-json-rpc-3.jpg" alt="Developer"><br/>
                     </div>
-                    <button type="button" class="collapsible">b) ?? </button>
+                    <button type="button" class="collapsible">b) Submit RPC calls.</button>
                     <div class="part">
-                      <img src="assets/img/8/??.jpg" alt="Developer"><br/>
+                      <img src="assets/img/8/Developer_rpc-submit-rpc-calls-1.jpg" alt="Developer"><br/>
+                      <img src="assets/img/8/Developer_rpc-submit-rpc-calls-2.jpg" alt="Developer"><br/>
+                      <img src="assets/img/8/Developer_rpc-submit-rpc-calls-3.jpg" alt="Developer"><br/>
+                      <img src="assets/img/8/Developer_rpc-submit-rpc-calls-4.jpg" alt="Developer"><br/>
                     </div>
                   </div>
                 </div>
@@ -186,13 +223,24 @@
               <div class="col-lg-12 col-md-12">
                 <div class="portfolio-details">
                   <div>
-                    <button type="button" class="collapsible">a) ??</button>
+                    <button type="button" class="collapsible">a) Sign messages.</button>
                     <div class="part">
-                      <img src="assets/img/8/??.jpg" alt="Developer"><br/>
+                      <img src="assets/img/8/Developer-sign-verify-messages-1.jpg" alt="Developer"><br/>
+                      <img src="assets/img/8/Developer-sign-verify-messages-2.jpg" alt="Developer"><br/>
+                      <img src="assets/img/8/Developer-sign-verify-messages-3.jpg" alt="Developer"><br/>
+                      <img src="assets/img/8/Developer-sign-verify-messages-4.jpg" alt="Developer"><br/>
                     </div>
-                    <button type="button" class="collapsible">b) ?? </button>
+                    <button type="button" class="collapsible">b) Verify signatures.</button>
                     <div class="part">
-                      <img src="assets/img/8/??.jpg" alt="Developer"><br/>
+                      <img src="assets/img/8/Developer-sign-verify-signatures-1.jpg" alt="Developer"><br/>
+                      <img src="assets/img/8/Developer-sign-verify-signatures-2.jpg" alt="Developer"><br/>
+                      <img src="assets/img/8/Developer-sign-verify-signatures-3.jpg" alt="Developer"><br/>
+                    </div>
+                    <button type="button" class="collapsible">c) Hash data.</button>
+                    <div class="part">
+                      <img src="assets/img/8/Developer-sign-verify-hash-1.jpg" alt="Developer"><br/>
+                      <img src="assets/img/8/Developer-sign-verify-hash-2.jpg" alt="Developer"><br/>
+                      <img src="assets/img/8/Developer-sign-verify-hash-3.jpg" alt="Developer"><br/>
                     </div>
                   </div>
                 </div>
@@ -208,13 +256,31 @@
               <div class="col-lg-12 col-md-12">
                 <div class="portfolio-details">
                   <div>
-                    <button type="button" class="collapsible">a) ??</button>
+                    <button type="button" class="collapsible">a) View and submit code snippets.</button>
                     <div class="part">
-                      <img src="assets/img/8/??.jpg" alt="Developer"><br/>
+                      <img src="assets/img/8/Developer_javascript-submit-snippets-1.jpg" alt="Developer"><br/>
+                      <img src="assets/img/8/Developer_javascript-submit-snippets-2.jpg" alt="Developer"><br/>
+                      <img src="assets/img/8/Developer_javascript-submit-snippets-3.jpg" alt="Developer"><br/>
+                      <img src="assets/img/8/Developer_javascript-submit-snippets-4.jpg" alt="Developer"><br/>
+                      <img src="assets/img/8/Developer_javascript-submit-snippets-5.jpg" alt="Developer"><br/>
                     </div>
-                    <button type="button" class="collapsible">b) ?? </button>
+                    <button type="button" class="collapsible">b) Customise code snippets.</button>
                     <div class="part">
-                      <img src="assets/img/8/??.jpg" alt="Developer"><br/>
+                      <img src="assets/img/8/Developer_javascript-customise-snippets-1.jpg" alt="Developer"><br/>
+                      <img src="assets/img/8/Developer_javascript-customise-snippets-2.jpg" alt="Developer"><br/>
+                      <img src="assets/img/8/Developer_javascript-customise-snippets-3.jpg" alt="Developer"><br/>
+                      <img src="assets/img/8/Developer_javascript-customise-snippets-4.jpg" alt="Developer"><br/>
+                      <img src="assets/img/8/Developer_javascript-customise-snippets-5.jpg" alt="Developer"><br/>
+                      <img src="assets/img/8/Developer_javascript-customise-snippets-6.jpg" alt="Developer"><br/>
+                      <img src="assets/img/8/Developer_javascript-customise-snippets-7.jpg" alt="Developer"><br/>
+                    </div>
+                    <button type="button" class="collapsible">c) Back up code snippets.</button>
+                    <div class="part">
+                      <img src="assets/img/8/Developer_javascript-backup-snippets-1.jpg" alt="Developer"><br/>
+                      <img src="assets/img/8/Developer_javascript-backup-snippets-2.jpg" alt="Developer"><br/>
+                      <img src="assets/img/8/Developer_javascript-backup-snippets-3.jpg" alt="Developer"><br/>
+                      <img src="assets/img/8/Developer_javascript-backup-snippets-4.jpg" alt="Developer"><br/>
+                      <img src="assets/img/8/Developer_javascript-backup-snippets-5.jpg" alt="Developer"><br/>
                     </div>
                   </div>
                 </div>
@@ -238,10 +304,10 @@
     <div class="container d-md-flex py-4">
       <div class="me-md-auto text-center text-md-start">
         <div class="copyright">
-          &copy; 2021 <strong><span>Anaelle LTD</span></strong>.
+          &copy; 2022 <strong><span>Anaelle LTD</span></strong>.
         </div>
         <div class="credits">
-          Last updated: 16th November 2021. <br/> 
+          Last updated: 12th February 2022. <br/> 
           <!-- All the links in the footer should remain intact. -->
           <!-- You can delete the links only if you purchased the pro version. -->
           <!-- Licensing information: https://bootstrapmade.com/license/ -->
@@ -271,6 +337,7 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
   <script src="assets/js/collapsible.js"></script>
+  <script src="assets/js/links.js"></script>
 
 </body>
 
